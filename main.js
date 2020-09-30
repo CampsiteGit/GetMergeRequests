@@ -7,7 +7,7 @@ function complete() {
 
 function hacktoberfest() {
     const prs = getMergeRequests(currentRepo);
-    if (prs > 4) {
+    if (prs => 4) {
         complete();
     }
 }
